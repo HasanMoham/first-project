@@ -1,0 +1,21 @@
+.text {
+  color: #2C3E50;
+}
+
+.input {
+  all: unset;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(26, 22, 22, 0.5921568627);
+  outline: none;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.buttom {
+  background-color: #1ABC9C;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px auto;
+}/*# sourceMappingURL=Contact.module.css.map */

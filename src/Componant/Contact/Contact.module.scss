@@ -1,0 +1,25 @@
+@import "../../variabaled";
+
+
+.text{
+    color:$main-color;
+}
+.input {
+    all: unset; 
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #1a161697; 
+    outline: none;
+    padding: 0.5rem 0; 
+    font-size: 1rem;
+  }
+
+.buttom{
+    background-color: $secondary-color;
+    padding:5px 10px;
+    border: none;
+    border-radius:5px ;
+    margin: 5px auto;
+
+}  
+  

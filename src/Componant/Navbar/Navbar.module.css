@@ -1,0 +1,19 @@
+.bar {
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #2C3E50;
+}
+.bar .logo {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.bar li {
+  margin: 0 15px;
+}
+
+.activeLink {
+  background-color: #1ABC9C !important;
+  border-bottom: 2px solid #1ABC9C;
+  padding: 15px;
+  border-radius: 5px;
+}/*# sourceMappingURL=Navbar.module.css.map */

@@ -1,0 +1,25 @@
+.starline, .starlinewhite, .starlinedark {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.starline .line, .starlinewhite .line, .starlinedark .line {
+  width: 100px;
+  height: 5px;
+  margin: 0px 5px;
+}
+
+.starlinedark .line {
+  background-color: #2C3E50;
+}
+.starlinedark .icon {
+  color: #2C3E50;
+}
+
+.starlinewhite .line {
+  background-color: white;
+}
+.starlinewhite .icon {
+  color: white;
+}/*# sourceMappingURL=Star.module.css.map */

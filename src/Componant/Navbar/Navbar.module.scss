@@ -1,0 +1,36 @@
+@import '../../variabaled';
+
+
+
+.bar{
+    
+    font-weight: bold;
+    font-size: 18px;
+    background-color:$main-color  ; 
+
+    .logo{
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+
+   
+
+    li{
+        margin: 0 15px;
+    }
+
+
+
+    
+}
+
+
+.activeLink {
+    background-color: $secondary-color !important;
+    border-bottom: 2px solid $secondary-color;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+
+

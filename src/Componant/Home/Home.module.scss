@@ -1,0 +1,27 @@
+@import "../../variabaled";
+
+.bgmain{
+    background-color: $secondary-color;
+}
+
+.container {
+    background-color: $secondary-color;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: $light-color;
+
+    img{
+        width: 25%;
+        margin: 10px auto;
+    
+    }
+
+
+    h {
+        text-transform: uppercase;
+    }
+
+
+}

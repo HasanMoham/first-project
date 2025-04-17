@@ -1,0 +1,26 @@
+@import "../../variabaled";
+
+
+.footer{
+    background-color: $main-color;
+    color: $light-color;
+    text-align: center;
+    padding: 40px;
+   
+    font-size: 18px;
+
+    .h{
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
+
+.copy{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding:10px;
+}
+
+

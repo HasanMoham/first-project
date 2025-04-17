@@ -1,0 +1,19 @@
+.footer {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+.footer .h {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.copy {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}/*# sourceMappingURL=Footer.module.css.map */

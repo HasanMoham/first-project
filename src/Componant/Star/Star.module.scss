@@ -1,0 +1,40 @@
+@import '../../variabaled';
+
+
+.starline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    .line{
+        width:100px;
+        height: 5px;
+        margin: 0px 5px ;
+        
+    }
+}
+
+
+.starlinedark{
+    @extend .starline;
+    
+    .line{
+        background-color:  $main-color;
+    }
+    .icon{
+        color: $main-color;
+    }
+}
+
+.starlinewhite{
+    @extend .starline;
+    .line{
+        background-color: white;
+    }
+    .icon{
+        color: white;
+    }
+}
+
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './contact.module.scss'
+import style from './Contact.module.scss'
 import Star from '../Star/Star'
 
 export default function Contact() {

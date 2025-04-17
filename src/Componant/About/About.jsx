@@ -1,6 +1,6 @@
 import React from 'react'
 import Star from '../Star/Star'
-import style from '../Home/home.module.scss'
+import style from '../Home/Home.module.scss'
 
 export default function About() {
   return (

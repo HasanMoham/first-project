@@ -7,7 +7,7 @@ export default function Home () {
   return (
     <>
 
-      <div className={`${styles.container}`}>
+      <div className={` h-100 ${styles.container}`}>
         <img src={persona} className={``} alt="" />
         <div className=""> <h3>start Framework</h3></div>
            <Star them='starlinewhite'/>

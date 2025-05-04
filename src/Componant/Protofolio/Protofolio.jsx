@@ -7,23 +7,22 @@ import Popimg from '../PopImg/Popimg'
 import Star from '../Star/Star'
 
 export default function Protofolio() {
-  const imges=[ img1,img2 ,img3 ,img1,img2 ,img3]
+  const imges = [img1, img2, img3, img1, img2, img3]
   return (
     <>
-    <div className="container my-2 ">
-      <div className="text-center"><h3 className='h1 fw-bold text-capitalize  '>portfolio component</h3> <Star them='starlinedark'/>
+      <div className="container my-2">
+        <div className="text-center">
+          <h3 className='h1 fw-bold text-capitalize'>Portfolio Component</h3>
+          <Star them='starlinedark'/>
+        </div>
+        <div className="row g-4">
+          {imges.map((img, index) => (
+            <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
+              <Popimg img={img} />
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="row g-4">
-      {imges.map((img, index) => (
-    <div className="col-lg-4 col-md-6 col-12" key={index}>
-      <Popimg img={img} />
-    </div>
-  ))}
-      </div>
-       
-    </div>
-    
-
     </>
   )
 }

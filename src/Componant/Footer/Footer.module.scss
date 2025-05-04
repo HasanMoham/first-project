@@ -1,26 +1,61 @@
 @import "../../variabaled";
 
 
-.footer{
-    background-color: $main-color;
-    color: $light-color;
-    text-align: center;
-    padding: 40px;
-   
-    font-size: 18px;
+.footer {
+  background-color: $main-color;
+  color: $light-color;
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
 
-    .h{
-        font-size: 32px;
-        font-weight: bold;
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .icons {
+    i {
+      font-size: 20px;
+      transition: all 0.3s ease;
+      
     }
+  }
 }
 
-.copy{
-    background-color: black;
-    text-align: center;
-    color: white;
+.copy {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .footer h3 {
+    font-size: 20px;
+  }
+
+  .icons i {
     font-size: 18px;
-    padding:10px;
+    margin: 5px;
+  }
 }
 
+@media (max-width: 576px) {
+  .footer {
+    font-size: 16px;
+  }
 
+  .footer h3 {
+    font-size: 18px;
+  }
+
+  .copy {
+    font-size: 14px;
+  }
+}

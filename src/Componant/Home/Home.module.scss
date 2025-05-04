@@ -1,27 +1,44 @@
-@import "../../_variabaled";
+@import "../../variabaled"; 
 
-.bgmain{
-    background-color: $secondary-color;
+.bgmain {
+  background-color: $secondary-color;
 }
 
-.container {
-    background-color: $secondary-color;
-    height: auto;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: $light-color;
+.homeContainer {
+  background-color: $secondary-color;
+  min-height: 100vh;
+  text-align: center;
+  color: $light-color;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    img{
-        width: 25%;
-        margin: 10px auto;
-    
-    }
+.avatar {
+  width:50%;
+  max-width:500px;
+  margin: 10px auto;
 
+  @media (max-width: 576px) {
+    width: 40%;
+  }
+}
 
-    h {
-        text-transform: uppercase;
-    }
+h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
 
+  @media (max-width: 576px) {
+    font-size: 1.5rem;
+  }
+}
 
+p {
+  font-size: 1.1rem;
+
+  @media (max-width: 576px) {
+    font-size: 0.95rem;
+  }
 }
